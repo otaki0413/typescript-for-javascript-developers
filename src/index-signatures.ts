@@ -14,3 +14,10 @@ let profile: Profile = { name: "Otaki", isUnderTwenty: false };
 profile.name = "Kei";
 profile.age = 26;
 profile.nationality = "Japan";
+
+let obj: Record<string, string | number | boolean> = {};
+
+obj.a = "A";
+obj.b = "B";
+obj.c = 1;
+obj.d = true;
